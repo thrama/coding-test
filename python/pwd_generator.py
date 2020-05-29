@@ -27,5 +27,5 @@ def pwd_generator(t):
     
     return passwd
 
-t= input("Inserisci il tipo di password [Simple/Complex]: ")
+t = input("Inserisci il tipo di password [Simple/Complex]: ")
 print ("La passwod generata è: " + pwd_generator(t))
