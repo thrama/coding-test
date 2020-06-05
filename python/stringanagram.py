@@ -5,7 +5,6 @@ import os
 import random
 import re
 import sys
-import time
 
 #
 # Complete the 'stringAnagram' function below.
@@ -21,16 +20,16 @@ def stringAnagram(dictionary, query):
     result = []
     r = 0
 
-    for i in range(len(query)): query[i] = ''.join((sorted(query[i])))
-    for j in range(len(dictionary)): dictionary[j] = ''.join(sorted(dictionary[j]))
+    s_query = list(map(lambda s : ''.join((sorted(s))), query))
+    s_dictionary = list(map(lambda s : ''.join((sorted(s))), dictionary))
 
-    print(query)
-    print(dictionary)
+    #print(s_query)
+    #print(s_dictionary)
 
-    for i in query:
-        for j in dictionary:
-            if len(i) == len(j) and i == j: r += 1
-
+    for i in s_query:
+        for j in s_dictionary:
+            if i == j: r += 1
+            
         result.append(r)
         r = 0
 
@@ -44,10 +43,6 @@ def stringAnagram(dictionary, query):
 dictionary = ['listen', 'tow', 'silent', 'lisent', 'two', 'abc', 'no', 'on']
 query = ['two', 'bca', 'no', 'listen']
 
-
-ts1 = time.time()
 result = stringAnagram(dictionary, query)
-ts2 = time.time()
 
-print(ts2 - ts1)
 print('\n'.join(map(str, result)))
