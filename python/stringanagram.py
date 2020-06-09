@@ -6,14 +6,14 @@ import random
 import re
 import sys
 
-#
-# Complete the 'stringAnagram' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts following parameters:
-#  1. STRING_ARRAY dictionary
-#  2. STRING_ARRAY query
-#
+'''
+ Complete the 'stringAnagram' function below.
+
+ The function is expected to return an INTEGER_ARRAY.
+ The function accepts following parameters:
+  1. STRING_ARRAY dictionary
+  2. STRING_ARRAY query
+'''
 
 def stringAnagram(dictionary, query):
     # Write your code here

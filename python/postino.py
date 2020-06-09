@@ -1,12 +1,12 @@
 import smtplib
 
 def postino():
-    print("""
+    """
     Questa è la funzione Postino: spedisce eMail utilizzando Gmail!
     Server: smtp.gmail.com
     Porta: 587
     Si richiedono: Username, Password, Destinatario, Oggetto e Contenuto
-    """)
+    """
 
     user_mittente = input("Inserisci l'Username --> ")
     password = input("Inserisci la Password --> ")
