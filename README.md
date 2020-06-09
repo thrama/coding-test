@@ -1,6 +1,8 @@
 # CODING TEST
 
-In this repository I'm storing some code 
+In this repository, I keep all the development tests done. Some come from HackerRank; others come from different sources.
+
+The tests developed using different programming languages.
 
 Used language:
 
