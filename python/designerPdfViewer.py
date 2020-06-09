@@ -2,7 +2,20 @@
 
 import string
 
-# Complete the designerPdfViewer function below.
+"""
+When you select a contiguous block of text in a PDF viewer, the selection is 
+highlighted with a bluerectangle. In this PDF viewer, each word is highlighted 
+independently. For example, the highlighted text: 
+
+abc def ghi
+
+In this challenge, you will be given a list of letter heights in the alphabet 
+and a string. Using the letterheights given, determine the area of the rectangle 
+highlight in mm^2 assuming all letters are 1mm wide.
+
+Link: https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
+"""
+
 def designerPdfViewer(h, word):
     l = list(string.ascii_lowercase) # contain the array with all lowercase letter
     x = 0

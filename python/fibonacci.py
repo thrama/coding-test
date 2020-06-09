@@ -1,4 +1,8 @@
-n = int(input("Quanti numeri di Fibonacci vuoi stampare? "))
+"""
+Link: https://en.wikipedia.org/wiki/Fibonacci_number
+"""
+
+n = int(input("How mamy Fibonacci's numbers you want to print? "))
 
 n_fib = 0
 n_fib_next = 1

@@ -6,15 +6,16 @@ import random
 import re
 import sys
 
+"""
+Given five positive integers, find the minimum and maximum values that can be calculated by summing 
+exactly four of the five integers. Then print the respective minimum and maximum values as a single 
+line of two space-separated long integers.
+For example, arr=[1,3,5,7,9]. Our minimum sum is 1+3+5+7=16 and our maximum sum is 3+5+7+9=24. We 
+would print: 16 24
+"""
 
 def miniMaxSum(arr):
-    """
-    Given five positive integers, find the minimum and maximum values that can be calculated by summing 
-    exactly four of the five integers. Then print the respective minimum and maximum values as a single 
-    line of two space-separated long integers.
-    For example, arr=[1,3,5,7,9]. Our minimum sum is 1+3+5+7=16 and our maximum sum is 3+5+7+9=24. We 
-    would print: 16 24
-    """
+
     max_num = max(arr)
     min_num = min(arr)
     max_sum = 0
