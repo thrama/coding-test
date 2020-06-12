@@ -15,7 +15,7 @@ Link: https://www.hackerrank.com/challenges/diagonal-difference/problem
 
 def diagonalDifference(arr):
     # Write your code here
-    print(np.matrix(arr))
+    #print(np.matrix(arr))
     dim = len(arr[0])
 
     # first diagonal, from 0,0 to n,n
@@ -31,9 +31,6 @@ def diagonalDifference(arr):
     print(d2)
 
     return abs(d1 - d2)
-
-
-
 
 if __name__ == '__main__':
 
