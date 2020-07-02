@@ -1,10 +1,19 @@
 # CODING TEST
 
-In this repository, I keep all the development tests done. Some come from [HackerRank](https://www.hackerrank.com/) others come from different sources.
+In this repository, I store some development exercises collected from different sources.
 
-The tests developed using different programming languages.
+Sources:
+* [HackerRank](https://www.hackerrank.com/)
 
 Used language:
 
 * [Python](https://www.python.org/) - version 3.8+
 * Bash Script
+
+## Built With
+
+* Visual Studio Code
+
+## License
+
+This is free and unencumbered software released into the public domain - see the [LICENSE](LICENSE) file for details
