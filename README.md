@@ -7,12 +7,12 @@ Sources:
 
 Used language:
 
-* [Python](https://www.python.org/) - version 3.8+
-* Bash Script
+* [Python](https://www.python.org/) - tested with version 3.7+
+* Bash Script - tested on zsh 5.7.1
 
 ## Built With
 
-* Visual Studio Code
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 ## License
 
