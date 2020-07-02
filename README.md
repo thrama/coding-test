@@ -1,6 +1,6 @@
 # CODING TEST
 
-In this repository, I keep all the development tests done. Some come from HackerRank; others come from different sources.
+In this repository, I keep all the development tests done. Some come from [HackerRank](https://www.hackerrank.com/) others come from different sources.
 
 The tests developed using different programming languages.
 
