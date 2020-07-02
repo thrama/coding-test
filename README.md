@@ -7,3 +7,4 @@ The tests developed using different programming languages.
 Used language:
 
 * [Python](https://www.python.org/) - version 3.8+
+* Bash Script
