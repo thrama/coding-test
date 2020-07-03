@@ -1,4 +1,4 @@
-# CODING TEST
+# CODING TESTS
 
 In this repository, I store some development exercises collected from different sources.
 
