@@ -12,7 +12,7 @@ Used language:
 
 ## Built With
 
-* [Visual Studio Code](https://code.visualstudio.com/) 1.46
+* [Visual Studio Code](https://code.visualstudio.com/) 1.46+
 * [Vim](https://www.vim.org/) 8.1 
 
 ## License
