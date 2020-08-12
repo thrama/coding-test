@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+
 def h(s):
     """ Cal the hash for the password"""
     p = 131
@@ -40,6 +41,7 @@ def authEvents(events):
             # check if the password can be accepted
             # this is the case in whitch the user insert the correct password + another character.
             # es. password = 'ABc01' - accepted password = 'ABc01a'
+            # more information about ASCII table: https://ascii.cl/
             minHash = h(password + '0')
             maxHash = h(password + 'z')
 
