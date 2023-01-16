@@ -4,11 +4,13 @@ In this repository, I store some development exercises collected from different 
 
 Sources:
 * [HackerRank](https://www.hackerrank.com/)
+* Other
 
 Used language:
 
 * [Python](https://www.python.org/) - tested with version 3.7+
 * Bash Script - tested on zsh 5.7.1
+* PowerShell - tested on version 7.3.
 
 ## Built With
 
